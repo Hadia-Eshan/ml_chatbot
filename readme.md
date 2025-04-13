@@ -83,7 +83,7 @@ http://localhost:8501
 ### 1. Install Docker in the system.
 ### 2. Build with Docker
 ```bash 
-docker build -t chatbot-app
+docker build -t chatbot-app /path-of-where-to-build
 ```
 ### 3. Run Locally with Docker
 ```bash
