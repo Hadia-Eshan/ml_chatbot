@@ -97,7 +97,8 @@ docker run -p 8501:8501 chatbot-app
 gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/chatbot-app
 ```
 ### 2. Deploy service
-```bash gcloud run deploy chatbot-app \
+```bash
+gcloud run deploy chatbot-app \
   --image gcr.io/YOUR_PROJECT_ID/chatbot-app \
   --platform managed \
   --region us-central1 \
