@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Poetry lock backup
+poetry.lock.*
+
+# Jupyter notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode / PyCharm project files
+.vscode/
+.idea/
+
+# Logs and caches
+*.log
+.cache/
+*.pid
+
+# OS-generated
+ehthumbs.db
+Icon?
+
+# Cloud SDK and archive
+google-cloud-sdk/
+google-cloud-sdk-*.tar.gz
+
+# Ignore large model files if not pushing them
+# Uncomment the line below if you want to exclude models
+*.pkl
+*.lock
+
+# Optional: ignore data folder if it's not needed in repo
+# /data/

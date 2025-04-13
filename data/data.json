@@ -1,0 +1,83 @@
+[
+    {"text": "hello", "intent": "greeting"},
+    {"text": "hi there", "intent": "greeting"},
+    {"text": "good evening", "intent": "greeting"},
+    {"text": "hey", "intent": "greeting"},
+
+    {"text": "bye", "intent": "goodbye"},
+    {"text": "see you", "intent": "goodbye"},
+    {"text": "thanks, bye", "intent": "goodbye"},
+
+    {"text": "thank you", "intent": "thanks"},
+    {"text": "thanks a lot", "intent": "thanks"},
+    {"text": "really appreciate it", "intent": "thanks"},
+
+    {"text": "can I see the menu?", "intent": "menu"},
+    {"text": "what dishes do you have?", "intent": "menu"},
+    {"text": "send me your menu please", "intent": "menu"},
+    {"text": "do you have pasta?", "intent": "menu"},
+
+    {"text": "what time do you open?", "intent": "hours"},
+    {"text": "are you open on Sundays?", "intent": "hours"},
+    {"text": "until what time are you open?", "intent": "hours"},
+    {"text": "do you open during holidays?", "intent": "hours"},
+
+    {"text": "where is your restaurant?", "intent": "location"},
+    {"text": "how can I reach your place?", "intent": "location"},
+    {"text": "what's your address?", "intent": "location"},
+
+    {"text": "I'd like to book a table", "intent": "reservation"},
+    {"text": "can I reserve a table for tonight?", "intent": "reservation"},
+    {"text": "table for two at 8pm please", "intent": "reservation"},
+    {"text": "do you take reservations?", "intent": "reservation"},
+
+    {"text": "I'd like to order food", "intent": "order_food"},
+    {"text": "can I order takeout?", "intent": "order_food"},
+    {"text": "I want delivery", "intent": "order_food"},
+    {"text": "how do I place an order?", "intent": "order_food"},
+
+    {"text": "cancel my order", "intent": "cancel_order"},
+    {"text": "I want to cancel", "intent": "cancel_order"},
+    {"text": "how do I cancel the order?", "intent": "cancel_order"},
+
+    {"text": "how long does delivery take?", "intent": "delivery_time"},
+    {"text": "when will the food arrive?", "intent": "delivery_time"},
+    {"text": "delivery ETA?", "intent": "delivery_time"},
+
+    {"text": "do you take credit cards?", "intent": "payment_methods"},
+    {"text": "can I pay by PayPal?", "intent": "payment_methods"},
+    {"text": "is cash on delivery available?", "intent": "payment_methods"},
+
+    {"text": "do you have vegan food?", "intent": "dietary_options"},
+    {"text": "any gluten-free meals?", "intent": "dietary_options"},
+    {"text": "do you offer dairy-free items?", "intent": "dietary_options"},
+
+    {"text": "how can I contact you?", "intent": "contact"},
+    {"text": "give me your phone number", "intent": "contact"},
+    {"text": "how do I reach you?", "intent": "contact"},
+
+    {"text": "I have a complaint", "intent": "complaint"},
+    {"text": "my order was wrong", "intent": "complaint"},
+    {"text": "the food was cold", "intent": "complaint"},
+    {"text": "I'm not happy with the service", "intent": "complaint"},
+
+    {"text": "do you have any deals?", "intent": "specials"},
+    {"text": "what are today's specials?", "intent": "specials"},
+    {"text": "any discounts?", "intent": "specials"},
+
+    {"text": "can I book for a group?", "intent": "group_booking"},
+    {"text": "we are 10 people, can we reserve?", "intent": "group_booking"},
+    {"text": "do you allow birthday reservations?", "intent": "group_booking"},
+
+    {"text": "do you host private events?", "intent": "events"},
+    {"text": "can I book the restaurant for a party?", "intent": "events"},
+    {"text": "do you have space for events?", "intent": "events"},
+
+    {"text": "do you serve wine?", "intent": "alcohol"},
+    {"text": "can I order beer?", "intent": "alcohol"},
+    {"text": "is alcohol available?", "intent": "alcohol"},
+
+    {"text": "do you have a kids menu?", "intent": "kids"},
+    {"text": "is your place kid-friendly?", "intent": "kids"},
+    {"text": "do you have high chairs?", "intent": "kids"}
+]
