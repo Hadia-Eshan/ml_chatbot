@@ -82,14 +82,20 @@ http://localhost:8501
 ### Use Docker
 ### 1. Install Docker in the system.
 ### 2. Build with Docker
-```bash docker build -t chatbot-app```
+```bash 
+docker build -t chatbot-app
+```
 ### 3. Run Locally with Docker
-```bash docker run -p 8501:8501 chatbot-app```
+```bash
+docker run -p 8501:8501 chatbot-app
+```
 
 
 ## Google Cloud Run Deployment
 ### 1. Build and push container
-```bash gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/chatbot-app```
+```bash 
+gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/chatbot-app
+```
 ### 2. Deploy service
 ```bash gcloud run deploy chatbot-app \
   --image gcr.io/YOUR_PROJECT_ID/chatbot-app \
