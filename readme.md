@@ -97,8 +97,8 @@ http://localhost:8501
   --region us-central1 \
   --allow-unauthenticated \
   --memory 1Gi \
-  --port 8501```
-
+  --port 8501
+```
 
 ## ✍️ Author
 **Hadia Eshanzada**  
